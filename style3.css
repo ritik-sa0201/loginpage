@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+section{
+    height: 70vh;
+    width: 22vw;
+    
+}
+.heading{
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    font-stretch: expanded;
+    color: black;
+    width: 22vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+}
+.idpass{
+  
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.input-container{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.input-heading{
+    
+    font-family: "Nunito", sans-serif;
+    color: rgb(220, 208, 208) ;
+    font-size: small;
+    margin: 2px;
+     
+
+}
+.input-box{
+    width: 20vw;
+    border-radius: 2%;
+    height: 30px;
+    border: 0.5px solid gainsboro;
+}
+h3{
+    font-family: "Nunito", sans-serif;
+    font-size: small;
+    margin-top: 10px;
+    color: violet;
+}
+.login{
+    width: 20vw;
+    background-color: violet;
+    font-family: "Nunito", sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    height: 6vh;
+    margin-top: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+#otherloginbox{
+    font-family: "Nunito", sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+    margin-top: 5px;
+    color: rgb(0, 0, 0);
+    
+}
+.container{
+    height: 15vh;
+
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20vw;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.box {
+    flex: 1;
+    height: 40px;
+    margin: 0 10px;
+    background-size: cover;
+}
+
+/* Adjusting first and last box margin to balance the space */
+.box:first-child {
+    margin-left: 0;
+}
+
+.box:last-child {
+    margin-right: 0;
+}
